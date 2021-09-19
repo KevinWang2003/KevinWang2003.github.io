@@ -1,0 +1,219 @@
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  color: black;
+  top: 0px;
+  text-align: center;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  color: black;
+  top: 10px;
+
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  color: black;
+  top: 10px;
+}
+
+body {
+background-color: #f0f0f0;
+background-repeat: no-repeat;
+background-size: 2160px 1440px;
+background-position: 50% 50%;
+overflow-x: hidden;
+padding-bottom: 200px;
+scrollbar-width: thin;
+margin: 0;
+background-image: linear-gradient(to right, gray, white, gray);
+}
+
+p {
+  font-family: Calibri;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  line-height: 20px;
+}
+
+
+header nav ul {
+  list-style-type: none;
+  margin-top: 8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+header nav li {
+  float: right;
+}
+
+header nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  position: relative;
+}
+
+header nav li a:hover {
+  background-color: lightblue;
+}
+
+nav li a.active {
+  background-color: lightblue;
+  color: white;
+}
+
+.games ul { 
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main article ul .parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  float: right;
+}
+main article ul .image2 {
+  position: absolute;
+  top: 350px;
+  left: 0px;
+}
+
+main article ul .image3 {
+  position: absolute;
+  top: 360px;
+  left: -250px;
+}
+
+main article ul .video {
+  position: absolute;
+  top: 600px;
+  left: -325px;
+}
+
+main article li {
+  list-style: none;
+}
+
+.gegevens .image1 {
+  position: relative;
+  top: 20px;
+  left: 60%;
+  border-radius: 25px;
+  box-shadow: 2px 2px black;
+  
+}
+.gegevens {
+  position: absolute;
+  background-color: lightblue;
+  width: 700px;
+  border-radius: 25px;
+  box-shadow: 3px 3px black;
+  left: 11%;
+  height: 400px;
+}
+
+.gegevens p {
+  text-align: left;
+  position: relative;
+  top: -350px;
+
+}
+
+.gegevens h2 {
+    text-align: left;
+    position: relative;
+    top: -350px;
+}
+
+.baan {
+  position: relative;
+  background-color: lightblue;
+  width: 42%;
+  border-radius: 25px;
+  box-shadow: 3px 3px black;
+  left: 950px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  height: 370px;
+}
+
+.baan p {
+  text-align: left;
+  position: relative;
+  top: -235px;
+  left: -20px;
+}
+
+.baan h2 {
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+.baan .image2 {
+  position: relative;
+  top: -30px;
+  left: 65%;
+}
+
+.games {
+  position: relative;
+  background-color: lightblue;
+  width: 960px;
+  border-radius: 25px;
+  box-shadow: 3px 3px black;
+  left: 25%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  height: 350px;
+  margin-top: 40px;
+}
+
+.games p {
+  text-align: left;
+  position: relative;
+  top: -350px;
+  left: -20px;
+}
+
+.games h2 {
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+.games .video {
+  position: relative;
+  top: -30px;
+  left: 34%;
+}
