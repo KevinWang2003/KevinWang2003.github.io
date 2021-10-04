@@ -34,11 +34,11 @@ li {
 body {
 background-color: #f0f0f0;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100%;
 background-position: 50% 50%;
 overflow-x: hidden;
 background-image: linear-gradient(to right, gray, white, gray);
-padding-bottom: 250px;
+padding-bottom: 400px;
 }
 
 p {

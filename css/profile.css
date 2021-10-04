@@ -17,23 +17,14 @@ h2 {
   top: 10px;
 
 }
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  position: relative;
-  color: black;
-  top: 10px;
-}
 
 body {
 background-color: #f0f0f0;
 background-repeat: no-repeat;
-background-size: 2160px 1440px;
+background-size: 100%;
 background-position: 50% 50%;
 overflow-x: hidden;
-padding-bottom: 200px;
-scrollbar-width: thin;
+padding-bottom: 375px;
 margin: 0;
 background-image: linear-gradient(to right, gray, white, gray);
 }
@@ -86,37 +77,7 @@ nav li a.active {
   color: white;
 }
 
-.games ul { 
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-main article ul .parent {
-  position: relative;
-  top: 0;
-  left: 0;
-  float: right;
-}
-main article ul .image2 {
-  position: absolute;
-  top: 350px;
-  left: 0px;
-}
-
-main article ul .image3 {
-  position: absolute;
-  top: 360px;
-  left: -250px;
-}
-
-main article ul .video {
-  position: absolute;
-  top: 600px;
-  left: -325px;
-}
-
-main article li {
+main li {
   list-style: none;
 }
 
@@ -130,6 +91,7 @@ main article li {
 }
 .gegevens {
   position: absolute;
+  display: block;
   background-color: lightblue;
   width: 700px;
   border-radius: 25px;
@@ -153,6 +115,7 @@ main article li {
 
 .baan {
   position: relative;
+  display: block;
   background-color: lightblue;
   width: 42%;
   border-radius: 25px;
@@ -186,16 +149,23 @@ main article li {
 
 .games {
   position: relative;
+  display: block;
   background-color: lightblue;
   width: 960px;
   border-radius: 25px;
   box-shadow: 3px 3px black;
-  left: 25%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 20px;
   height: 350px;
   margin-top: 40px;
+}
+
+.games ul { 
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .games p {
