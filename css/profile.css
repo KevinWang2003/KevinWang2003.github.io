@@ -22,9 +22,8 @@ body {
 background-color: #f0f0f0;
 background-repeat: no-repeat;
 background-size: 100%;
-background-position: 50% 50%;
 overflow-x: hidden;
-padding-bottom: 375px;
+padding-bottom: 255px;
 margin: 0;
 background-image: linear-gradient(to right, gray, white, gray);
 }
@@ -81,34 +80,35 @@ main li {
   list-style: none;
 }
 
+
+.gegevens, .baan, .games {
+    background-color: lightblue;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: 3px 3px black;
+}
+
+.gegevens {
+  position: relative;
+  display: block;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 405px;
+}
+
 .gegevens .image1 {
   position: relative;
   top: 20px;
-  left: 60%;
-  border-radius: 25px;
-  box-shadow: 2px 2px black;
-  
-}
-.gegevens {
-  position: absolute;
-  display: block;
-  background-color: lightblue;
-  width: 700px;
-  border-radius: 25px;
-  box-shadow: 3px 3px black;
-  left: 11%;
-  height: 400px;
+  left: 75%;
 }
 
 .gegevens p {
-  text-align: left;
   position: relative;
   top: -350px;
-
 }
 
 .gegevens h2 {
-    text-align: left;
     position: relative;
     top: -350px;
 }
@@ -116,27 +116,22 @@ main li {
 .baan {
   position: relative;
   display: block;
-  background-color: lightblue;
-  width: 42%;
-  border-radius: 25px;
-  box-shadow: 3px 3px black;
-  left: 950px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 20px;
-  height: 370px;
+  height: 335px;
 }
 
 .baan p {
-  text-align: left;
-  position: relative;
   top: -235px;
   left: -20px;
 }
 
 .baan h2 {
-    text-align: left;
-    position: relative;
     top: 0px;
     left: 20px;
 }
@@ -144,23 +139,20 @@ main li {
 .baan .image2 {
   position: relative;
   top: -30px;
-  left: 65%;
+  left: 68%;
 }
 
 .games {
   position: relative;
   display: block;
-  background-color: lightblue;
   width: 960px;
-  border-radius: 25px;
-  box-shadow: 3px 3px black;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 20px;
   height: 350px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .games ul { 
@@ -169,15 +161,11 @@ main li {
 }
 
 .games p {
-  text-align: left;
-  position: relative;
   top: -350px;
   left: -20px;
 }
 
 .games h2 {
-    text-align: left;
-    position: relative;
     top: 0px;
     left: 20px;
 }
@@ -186,4 +174,16 @@ main li {
   position: relative;
   top: -30px;
   left: 34%;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #333333;
+  height: 75px;
+  margin-top: 255px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

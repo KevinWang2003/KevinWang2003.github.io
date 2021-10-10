@@ -1,108 +1,84 @@
-
-
 a {
-    border: 2px;
+  border: 2px;
 }
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    position: relative;
-    color: black;
-    top: 10px;
-    text-align: center;
-}
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
-    color: black;
-    top: 10px;
 
-}
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
-    color: black;
-    top: 10px;
-}
 
 body {
-background-color: #f0f0f0;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: 50% 50%;
-overflow-x: hidden;
-background-image: linear-gradient(to right, gray, white, gray);
-overflow-y: hidden;
-padding-bottom: 550px;
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow-x: hidden;
+  background-image: linear-gradient(to right, gray, white, gray);
+  padding-bottom: 550px;
 }
 
-p {
-    font-family: Calibri;
-    font-size: 20px;
-    color: black;
-    position: relative;
-}
-
-
-  nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-    width: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 nav li {
-    float: right;
-  }
+  float: right;
+}
 
 nav li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    position: relative;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  position: relative;
 }
 
 nav li a:hover {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
-
-p {
-    position: relative;
-    text-align: center;
-    line-height: 5px;
-}
 h1 {
-    position: relative;
-    padding: -10px;
-    text-align: center;
-    color: black;
-    border: 2px;
-    border-color: black;
+  position: relative;
+  padding: -10px;
+  text-align: center;
+  color: black;
+  border: 2px;
+  border-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
 }
 
 h2 {
   position: relative;
   text-align: center;
   line-height: 5px;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  top: 10px;
+}
+
+p {
+  position: relative;
+  text-align: center;
+  line-height: 5px;
+  font-family: Calibri;
+  font-size: 20px;
+  color: black;
 }
 
 main .collapsible {
@@ -147,4 +123,3 @@ main .content {
   box-shadow: 3px 3px black;
   margin-bottom: 10px;
 }
-
